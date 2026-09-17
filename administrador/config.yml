@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: subliideas16-cell/Subli-ideas
+  branch: principal
+
+media_folder: "img"
+public_folder: "/img"
+
+collections:
+  - name: "contenido"
+    label: "Contenido Web"
+    files:
+      - file: "index.html"
+        label: "Página Principal"
+        name: "index"
+        fields:
+          - {label: "Título Principal", name: "title", widget: "string"}
+          - {label: "Descripción", name: "description", widget: "text"}
